@@ -9,3 +9,62 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #ff6b6b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+    section {
+      margin: 40px 0;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: auto;
+    }
+    .menu-item {
+      background-color: #ffe0b2;
+      margin: 10px auto;
+      padding: 15px;
+      border-radius: 8px;
+      max-width: 400px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, select, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .cta-button {
+      padding: 12px 24px;
+      background-color: #ffa502;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .cta-button:hover {
+      background-color: #ff7f50;
+    }
+
